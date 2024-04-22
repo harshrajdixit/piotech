@@ -1,0 +1,199 @@
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav {
+    display: inline;
+}
+
+#logo {
+
+    padding: 3px;
+
+}
+
+#section {
+
+    float: right;
+
+}
+
+ul li {
+    display: inline;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 20px;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+      /* -------------------------------------------------------------second option padding */
+      /* padding-left: 8px;
+      padding-right: 8px; */
+
+}
+
+ul li:hover {
+    color: black;
+    /* -----------------------------------------------------------------------first option */
+    border-bottom: 2px solid rgb(245, 68, 68);
+    padding-bottom: 5px;
+
+    /* --------------------------------------------------------------------------second option */
+    /* border-left: 5px solid rgb(251, 33, 33);
+    background-color: rgb(220, 198, 198);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px; */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#navbar {
+
+    padding-bottom: 5px;
+    /* padding-top:2px; */
+    display: inline-block;  
+    width: 100%;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+    background-color: white;
+    /* background-color: aliceblue;
+    position: fixed;
+    z-index: 10; */
+
+}
+.dropdown{
+    display: none;
+    /* transition-duration: 10s; */
+}
+  ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+
+    
+    
+}
+.dropdown ul{
+    margin-top: 40px;
+    margin-left: 90px;
+   
+    padding: 2px;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 2px rgb(210, 210, 210);
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.dropdown ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     margin-right: 30px;
+     margin-left: 10px;
+     padding: 5px;
+     /* background-color: rgb(245, 68, 68); */
+}
+.dropdown>ul>li:hover{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     margin-right: 30px;
+     margin-left: 10px;
+     padding-left: 7px;
+     padding-right: 3px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     color: aliceblue;
+     background-color: rgb(245, 68, 68);
+     border-radius: 10px;
+}
+
+/* --------------------------------------------------------------navbar ends here */
+
+h1{
+    font-size: 35px;
+    font-weight: 650;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 0px;
+    margin-top: 70px;
+    color: rgb(251, 33, 33);
+/* border: 2px solid red; */
+}
+.query{
+    border: 3px dashed rgb(255, 255, 255);
+    border-radius: 20px;
+    display: inline-block;
+    background-color:rgb(251, 33, 33) ;
+    width: 50%;
+    margin-top: 60px;
+}
+#q1{
+    font-size: 25px;
+    font-weight: 650;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+#q2{
+    font-size: 15px;
+    font-weight: 650;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    color: rgb(247, 228, 182);
+}
+.query input{
+    /* margin-top: 10px; */
+margin-bottom: 10px;
+   padding-top:10px ;
+   padding-bottom:10px ;
+   padding-left: 20px;
+   padding-right: 50px;
+   border-radius: 10px;
+    /* text-align: right; */
+}
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding-top:10px ; */
+    /* padding-bottom:10px ; */
+    padding-left: 20px;
+    /* padding-right: 50px; */
+    border-radius: 10px;
+}
+.btn{
+    margin-bottom: 10px;
+padding-top:10px ;
+padding-bottom:10px ;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 10px;
+font-size: 25px;
+}
+.btn:hover{
+        /* margin-top: 10px; */
+margin-bottom: 10px;
+padding-top:10px ;
+padding-bottom:10px ;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 10px;
+ /* text-align: right; */
+ background-color: rgb(142, 141, 141);
+}
+
+
